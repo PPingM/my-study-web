@@ -1,0 +1,26 @@
+
+body, div, dd, dl, dt, ul, li, h1, h2, h3, h4, h5, h6, a, p, form, input, textarea{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Consolas", "Angsana New", Arial,sans-serif;
+}
+
+ol, ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.clearfloat{
+    zoom: 1;
+}
+
+.clearfloat:after{
+    display: block;
+    clear: both;
+    content: '';
+    visibility: hidden;
+}
